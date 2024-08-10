@@ -1,0 +1,68 @@
+/* src/styles/WelcomePage.css */
+
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between;  */
+    height: 100vh;
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .logo-container {
+    margin-top: 20px;
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .sivayanama {
+    font-size: 1.8rem;
+    color: #ff6200;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .greeting {
+    font-size: 2rem;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .registration-number {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+  }
+  
+  .explore-button {
+    background-color: #ff6200;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    /* margin-bottom: 20px;  */
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .explore-button:hover {
+    background-color: #e65500;
+    transform: translateY(-2px);
+  }
+  
+  .explore-button:active {
+    transform: translateY(0);
+    background-color: #cc4b00;
+  }
+  

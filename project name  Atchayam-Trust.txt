@@ -1,0 +1,4 @@
+project name : Atchayam-Trust
+user name : venkatagirirajuearth
+password : CxgRGcsT6ANcppLx
+connection string : mongodb+srv://venkatagirirajuearth:CxgRGcsT6ANcppLx@cluster0.eclj5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

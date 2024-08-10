@@ -1,0 +1,127 @@
+/* src/styles/UserInfoPage.css */
+
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  background-color: #f4f7f6;
+}
+
+.logout {
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.logout-button {
+  background-color: transparent;
+  color: #ff6200;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.logout-button:hover {
+  color: #e65500;
+}
+
+.welcome-message {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.instruction {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.user-info-form {
+  width: 90%;
+  max-width: 400px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.input-icon {
+  margin-right: 10px;
+  color: #7f8c8d;
+}
+
+.input-field {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 8px;
+  outline: none;
+  background-color: transparent;
+  color: #2c3e50;
+  border: 1px solid #e0e0e0;
+ 
+}
+
+.input-field::placeholder {
+  color: #b0b0b0;
+}
+
+textarea.input-field {
+  height: 100px;
+  resize: none;
+  width: 93%;
+  margin-bottom: 20px;
+}
+
+.submit-button {
+  background-color: #ff6200;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 15px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%;
+  max-width: 400px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.submit-button:hover {
+  background-color: #e65500;
+  transform: translateY(-2px);
+}
+
+.submit-button:active {
+  transform: translateY(0);
+  background-color: #cc4b00;
+}

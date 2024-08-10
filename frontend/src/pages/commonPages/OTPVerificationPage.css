@@ -1,0 +1,93 @@
+/* src/styles/OtpVerificationPage.css */
+
+.otp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .otp-header {
+    margin-bottom: 20px;
+    background-color: #fff7f0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .back-arrow {
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding-left: 10px;
+  }
+  
+  .verify-title {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .otp-instructions {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+  }
+  
+  .otp-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  
+  .otp-input {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ff6200;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #2c3e50;
+  }
+  
+  .verify-button {
+    background-color: #ff6200;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  .verify-button:hover {
+    background-color: #e65500;
+  }
+  
+  .resend-otp {
+    background-color: transparent;
+    color: #7f8c8d;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  /* Additional Toast Styles (if needed) */
+  .toast-container {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,39 @@
+/* src/styles/SplashScreen.css */
+
+.splash-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 1s ease-in-out; /* Match this with the JavaScript timer */
+  }
+  
+  .splash-container.slide-up {
+    transform: translateY(-100%);
+  }
+  
+  .splash-content {
+    text-align: center;
+  }
+  
+  .splash-logo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .app-title {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .app-tagline {
+    font-size: 1rem;
+    color: #7f8c8d;
+  }
+  

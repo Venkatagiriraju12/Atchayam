@@ -1,0 +1,115 @@
+/* src/styles/PaymentSchemePage.css */
+
+.payment-scheme-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f4f7f6;
+    text-align: center;
+    position: relative;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: #ff6200;
+  }
+  
+  .payment-title {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .scheme-card {
+    width: 90%;
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .scheme-card h3 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .scheme-card p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+  }
+  
+  .scheme-card h2 {
+    font-size: 1.7rem;
+    color: #ff6200;
+    position: absolute;
+    right: 14px;
+    bottom: 25px;
+  }
+  
+  .scheme-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .scheme-card.selected {
+    border-color: #ff6200;
+    background-color: #fff7f0;
+  }
+  
+  .scheme-card .checkmark {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 1.5rem;
+    color: #ff6200;
+    display: none;
+  }
+  
+  .scheme-card.selected .checkmark {
+    display: block;
+  }
+  
+  .submit-button {
+    background-color: #ff6200;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 50%;
+    align-self: flex-end;
+    max-width: 400px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  .submit-button:hover {
+    background-color: #e65500;
+    transform: translateY(-2px);
+  }
+  
+  .submit-button:active {
+    transform: translateY(0);
+    background-color: #cc4b00;
+  }
+  

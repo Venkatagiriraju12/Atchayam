@@ -1,0 +1,99 @@
+/* src/styles/LoginPage.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  .login-content {
+    text-align: center;
+    color: #333333; /* Darker color for text */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light grey background for the content box */
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  }
+  
+  .app-name {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #ff6200; /* Highlight color for the app name */
+  }
+  
+  .welcome-message {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #666666; /* Subtle grey for the welcome message */
+  }
+  
+  .login-prompt {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #666666; /* Subtle grey for the login prompt */
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .country-code {
+    background-color: #eeeeee; /* Light grey for the country code box */
+    border: 1px solid #cccccc; /* Light grey border */
+    border-radius: 5px 0 0 5px;
+    padding: 0.4rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .country-code select {
+    background-color: transparent;
+    border: none;
+    color: #333333; /* Darker color for text */
+    font-size: 1rem;
+    appearance: none;
+    outline: none;
+  }
+  
+  .phone-input {
+    background-color: #eeeeee; /* Light grey for the input field */
+    border: 1px solid #cccccc; /* Light grey border */
+    border-radius: 0 5px 5px 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #333333; /* Darker color for text */
+    width: 100%;
+  }
+  
+  .phone-input::placeholder {
+    color: #aaaaaa; /* Subtle grey for placeholder text */
+  }
+  
+  .login-button {
+    background-color: #ff6200; /* Bright orange for the login button */
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transform for button press effect */
+  }
+  
+  .login-button:hover {
+    background-color: #e65500; /* Darker orange on hover */
+  }
+  
+  .login-button:active {
+    transform: translateY(2px); /* Button press effect */
+  }
+  
